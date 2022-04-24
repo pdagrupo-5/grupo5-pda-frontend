@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#servico_titulo {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#estacionamento {
+    padding-top: 15px;
+}
+
+#estacionamento p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px
+    25px;
+}
+
+#estacionamento_imagem {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-height: 65vh;
+}
+
+@media (min-width: 600px) {
+
+    #carouselExampleCaptions h5 {
+        text-transform: uppercase;
+    }
+
+    #servico_titulo {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    #estacionamento {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 40px 35px;
+    }
+
+    #estacionamento p {
+        font-size: 35px;
+        text-align: justify;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    #estacionamento_imagem {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        max-height: 80vh;
+        padding-left: 50px;
+    }
+}
