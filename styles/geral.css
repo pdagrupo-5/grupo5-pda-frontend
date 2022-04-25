@@ -40,6 +40,7 @@ header {
 }
 
 #header_titulo {
+    text-align: center;
     font-size: 50px;
     color: white;
     font-weight: bolder;
