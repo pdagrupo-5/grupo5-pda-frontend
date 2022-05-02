@@ -63,34 +63,4 @@ body {
         padding-left: 50px;
     }
 }
-/*sobre*/
-.about-area{
-    background-color: #f9f9f9;
-}
-#main-title{
-    color: #444;
-    margin: 0 0 65px 0;
-    font-size: 40px;
-}
 
-#main-title::after {
-    content: "";
-    border-top: 2px solid #333;
-    width: 15%;
-    position: absolute;
-    top: 60px;
-    left: 42.5%;
-}
-#about-title{
-    font-size: 17px;
-    color: #444;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-#about-list li {
-    line-height: 30px;
-}
-#about-list i {
-    color: #d7b703;
-    margin-right: 14px;
-}
