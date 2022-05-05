@@ -16,7 +16,7 @@
     width: 50%;
     height: 100%;
     background-color: #4aa4ee;
-    padding: 20px;
+    padding: -20px;
 }
 
 .img-box img {
@@ -30,6 +30,7 @@
     align-items: center;
     width: 50%;
     height: 100%;
+    background-color: yellow;
 }
 
 .content-box .form-box {
@@ -101,7 +102,7 @@
 }
 
 .content-box .form-box .input-box input[type=submit] {
-    background: #4aa4ee;
+    background: gray;
     color: #fff;
     outline: none;
     border: none;
@@ -112,7 +113,7 @@
 }
 
 .content-box .form-box .input-box input[type=submit]:hover {
-    background: #3286ca;
+    background: gray;
 }
 
 .content-box .form-box .remember{
