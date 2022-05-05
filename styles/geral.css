@@ -14,7 +14,6 @@ header {
     padding: 15px;
     align-items: center;
     margin-top: -16px;
-    
 }
 
 #header_conta {
@@ -98,7 +97,7 @@ header {
     text-align: center;
     padding: 1rem 0;
     position: absolute;
-    height: 40vh;
+    height: 35vh;
     width: 100%;
     right: 0;
     background: #efcf33;
@@ -155,6 +154,10 @@ p {
     font-family: 'Carrois Gothic SC', sans-serif;
 }
 
+#footer {
+    text-align: center;
+}
+
 
 @media (min-width: 730px) {
 
@@ -184,7 +187,7 @@ p {
     }
 
 }
-/*sobre*/
+
 .about-area{
     background-color: #f9f9f9;
 }
