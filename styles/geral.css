@@ -157,6 +157,10 @@ p {
 #footer {
     text-align: center;
 }
+#menu_quatro{
+    background-color: #333;
+    padding-right: 3px;
+}
 
 
 @media (min-width: 730px) {
