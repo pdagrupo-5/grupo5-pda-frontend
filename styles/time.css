@@ -5,7 +5,41 @@
   object-fit: cover;
   width: 200px;  
 }
+
 #membros{
   margin-bottom: 3rem;
   text-align: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#container h4 {
+  padding-top: 10px;
+}
+
+#container a img {
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+
+
+@media (min-width: 900px) {
+
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #container h4 {
+    padding-top: 10px;
+  }
+  
+  #container a img {
+    padding-right: 10px;
+  }
+
 }

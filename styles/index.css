@@ -5,6 +5,10 @@ body {
     text-decoration: none;
 }
 
+h3 {
+    padding-top: 20px;
+}
+
 #servico_titulo {
     text-align: center;
     padding-top: 20px;
@@ -54,6 +58,14 @@ body {
         padding-top: 20px;
         font-size: 40px;
     }
+
+    #sevico_imagem {
+        max-height: 40px;
+        width: auto;
+    }
+
+
+    
 
     #estacionamento {
         display: flex;

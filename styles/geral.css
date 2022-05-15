@@ -162,8 +162,12 @@ p {
     padding-right: 3px;
 }
 
+#voltar {
+    padding-left: 15px;
+}
 
-@media (min-width: 730px) {
+
+@media (min-width: 965px) {
 
     #header_titulo {
         font-size: 90px;
