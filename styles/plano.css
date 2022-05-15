@@ -136,4 +136,20 @@
   .card:hover {
     transform: scale3d(1.1, 1.1, 1);
   }
+
+  .btn{
+    padding: 10px 8px;
+    width: 150;
+    color: #fff;
+    background: #FFD700;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer
+  }
+
+  .btn:hover {
+    background: yellow;
+  }
   

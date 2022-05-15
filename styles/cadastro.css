@@ -38,7 +38,7 @@ a {
 #main-container h1 {
   text-align: center;
   margin-bottom: 25px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 form {
@@ -63,7 +63,7 @@ form {
 
 label {
   font-weight: bold;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 input {
@@ -84,6 +84,34 @@ input[type="submit"] {
   border-radius: 20px;
   height: 40px;
   cursor: pointer;
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+.btn-grey {
+  background-color: #696969;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+.btn {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+  display: block;
+  outline: none;
+  width: 100%;
+  text-align: center;
 }
 
 #agreement {
@@ -117,3 +145,4 @@ input[type="submit"] {
 }
 
 }
+
