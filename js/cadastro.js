@@ -36,7 +36,7 @@ function validar() {
     senha.focus();
     return;
   }
-
+  
  
   alert("Formulário enviado!");
   // envia o formulário

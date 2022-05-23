@@ -14,18 +14,19 @@
       
    
       <label for="name">Nome</label>
-      <input type="text" name="name" id="name" required >
+      <input type="text" name="name" id="nome" required >
       <label for="email">E-mail</label>
       <input type="email" name="email" id="email" required >
         <label for="message">
           Mensagem
         <label>
-      <textarea name="message" id="message" required></textarea>
+      <textarea name="message" id="msg" required></textarea>
       <input type="hidden" name="_captcha" value="false" >
       <input  type="hidden" name="_next">
 
       
-      <button type="submit">Enviar</button>
+      <button type="submit" onclick="validar()">Enviar</button>
     </form>
+    <script src="js/feed.js"></script>
   </body>
 </html>
