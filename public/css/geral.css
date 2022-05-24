@@ -157,6 +157,26 @@ p {
 #footer {
     text-align: center;
 }
+
+#footer button {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background-color: #354444;
+    padding: 10px;
+}
+
+#footer button:hover {
+    background-color: #d7b703;
+}
+
+#form_titulo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 #menu_quatro{
     background-color: #333;
     padding-right: 3px;

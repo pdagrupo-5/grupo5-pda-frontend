@@ -1,5 +1,30 @@
 <div class="container">
     <div class="row align-items-center" id="footer">
+        <div>
+            <form class="form">
+                <h3 id="form_titulo">feedback</h3>
+                <label for="name">Nome:</label>
+                <br>
+                <input type="text" name="name" id="nome" required >
+                <br>
+                <br>
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="email" name="email" id="email" required >
+                <br>
+                <br>
+                <label for="message">Mensagem:</label>
+                <br>
+                <textarea name="message" id="msg" required></textarea>
+                <br>
+                <input type="hidden" name="_captcha" value="false" >
+                <input  type="hidden" name="_next">
+                <br>
+                <button type="submit" onclick="validar()">Enviar</button>
+                <br>
+                <br>
+              </form>
+        </div>
         <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
         <div class="col-lg-4 my-3 my-lg-0">
           <a href="https://github.com/pdagrupo-5"><img src="../images/github.svg" alt="logo git hub" style="width: 30px; "></a>
