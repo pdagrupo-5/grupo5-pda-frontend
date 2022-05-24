@@ -1,0 +1,234 @@
+
+h2, h4, h4, h5, h6 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: #efcf33;
+    padding: 15px;
+    align-items: center;
+    margin-top: -16px;
+}
+
+#header_conta {
+    background-color: #354444;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+    padding: 10px;
+}
+
+#header_conta a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: bold;
+}
+
+#header_conta a:hover {
+    background: #d7b703;
+}
+
+#header_titulo {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+}
+
+#btn-mobile {
+    display: flex;
+    padding: .5rem .1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#hamburguer {
+    color: white;
+    display: block;
+    width: 20px;
+    border-top: 2px solid;
+}
+
+#hamburguer::before, #hamburguer::after {
+    width: 20px;
+    height: 2px;
+    content: "";
+    display: block;
+    margin-top: 5px;
+    background: currentColor;
+    transition: .3s;
+    position: relative;
+}
+
+#nav.active #hamburguer {
+    border-top-color: transparent;
+}
+
+#nav.active #hamburguer::before {
+    transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+#nav.active #menu {
+    display: inline;
+    gap: .5rem;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    height: 35vh;
+    width: 100%;
+    right: 0;
+    background: #efcf33;
+    display: block;
+    z-index: 1000;
+    visibility: visible;
+    overflow-y: auto;
+}
+
+#menu {
+    display: block;
+    gap: .5rem;
+    height: 0;
+    transition: .6s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    display: block;
+    padding: .5rem;
+    border-bottom: 2px solid #d7b703;
+    text-transform: uppercase;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    background: #d7b703;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #ffd700;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+#footer {
+    text-align: center;
+}
+#menu_quatro{
+    background-color: #333;
+    padding-right: 3px;
+}
+
+#voltar {
+    padding-left: 15px;
+}
+
+
+@media (min-width: 965px) {
+
+    #header_titulo {
+        font-size: 90px;
+        margin-left: 60px;
+    }
+
+    #btn-mobile {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        gap: .5rem;
+    }
+
+    #menu {
+        display: flex;
+        height: auto;
+    }
+
+    #menu a {
+        border: none;
+        visibility: visible;
+        overflow-y: visible;
+    }
+
+}
+
+.about-area{
+    background-color: #f9f9f9;
+}
+.main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-list li {
+    line-height: 30px;
+}
+.about-list i {
+    color: #d7b703;
+    margin-right: 14px;
+}

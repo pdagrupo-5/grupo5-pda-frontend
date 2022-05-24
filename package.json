@@ -1,0 +1,23 @@
+{
+  "name": "grupo5-pda-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdagrupo-5/grupo5-pda-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdagrupo-5/grupo5-pda-frontend/issues"
+  },
+  "homepage": "https://github.com/pdagrupo-5/grupo5-pda-frontend#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
