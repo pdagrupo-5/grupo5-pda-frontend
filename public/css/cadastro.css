@@ -9,7 +9,7 @@
 
 body {
   padding-top: 5vh;
-  background-image: url('/grupo5-pda-frontend/images/esta.jpg');
+  background-image: url( '../images/esta.jpg');
   background-size: cover;
   background-position-y: -150px;
   background-color: #FFD700;
