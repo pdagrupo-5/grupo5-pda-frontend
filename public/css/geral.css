@@ -160,16 +160,17 @@ p {
 }
 
 #footer button {
-    color: white;
+    color: #212529;
     font-weight: bold;
     text-transform: uppercase;
+    background-color: #ffd700;
     border: none;
-    background-color: #354444;
     padding: 10px;
 }
 
 #footer button:hover {
-    background-color: #d7b703;
+    background-color: #354444;
+
 }
 
 #form_titulo {
