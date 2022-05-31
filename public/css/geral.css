@@ -227,7 +227,7 @@ p {
     text-align: center;
     text-align: center;
     padding-top: 20px;
-    text-transform: uppercase;
+    text-transform:uppercase ;
     font-weight: bold;
 
 }
@@ -252,4 +252,8 @@ p {
 .about-list i {
     color: #d7b703;
     margin-right: 14px;
+}
+
+.alinhamento-center {
+    text-align: center;
 }
