@@ -28,6 +28,11 @@ app.get("/cadastro", (request , response) => {
     response.render("pages/cadastro" , {titulo});
 });
 
+app.get("/carros", (request , response) => {
+    let titulo = "carros";
+    response.render("pages/carros" , {titulo});
+});
+
 app.get("/login" , (request , response)=> {
     let titulo = "login";
     response.render("pages/login" , {titulo});
