@@ -42,9 +42,10 @@ app.get("/plano" , (request , response)=> {
     let titulo = "planos";
     response.render("pages/plano" , {titulo});
 })
-app.get("/pagamento" , (request , response)=> {
-    let titulo = "pagamentos";
-    response.render("pages/pagamentos" , {titulo});
+
+app.get("/pagamento", (request , response)=> {
+    let titulo = "pagamento";
+    response.render("pages/pagamento" , {titulo});
 })
 
 app.use((req,res,next) => {
