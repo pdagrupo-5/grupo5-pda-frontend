@@ -27,6 +27,14 @@ const usuario = db.define('pessoa' , {
     cep : {
         type: Sequelize.DataTypes.STRING,
         allowNull: false,
+    },
+    senha : {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    },
+    logado: {
+        type: Sequelize.DataTypes.TINYINT,
+        allowNull: false
     }
 });
 

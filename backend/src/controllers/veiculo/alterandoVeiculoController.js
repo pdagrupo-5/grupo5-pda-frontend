@@ -4,11 +4,12 @@ const alterandoVeiculoController = async (req,res)=>{
     const {nome, ano,cor,placa,propietario} = req.body;
     const carro = await veiculo.findByPk(id); 
     await  veiculo.update({
-      nome: nome || carro.nome,
+      modelo: modelo || carro.modelo,
       ano: ano || carro.ano,
       cor: cor || carro.cor,
       placa: placa || carro.placa,
-      propietario: propietario || carro.propietario
+      propietario: propietario || carro.propietario,
+      senha: senha || carro.senha
     }, { where: { idveiculo: id }});
     const veiculoAtualizado = await veiculo.findByPk(id);
     return res.json({ mensagem: "Usuario ATUALIZADO com sucesso!",veiculo: veiculoAtualizado});

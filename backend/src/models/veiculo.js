@@ -17,19 +17,22 @@ const veiculo = db.define('veiculo' , {
         type : Sequelize.DataTypes.STRING,
         allowNull: false,
     },
-    cor :{
-        type: Sequelize.DataTypes.STRING,
-        allowNull: false, 
-    },
-    nome : {
+    modelo :{
         type: Sequelize.DataTypes.STRING,
         allowNull: false, 
     },
     propietario : {
         type: Sequelize.DataTypes.STRING,
-        allowNull: false,
+        allowNull: false, 
     },
-    
+    cor : {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    },
+    senha: {
+        type: Sequelize.DataTypes.STRING,
+        allowNull: false
+    }
 });
 
 module.exports = veiculo;

@@ -17,6 +17,10 @@ usuarioRoute.put("/usuario/:id", alterandoUsuarioController);
 
 usuarioRoute.delete("/usuario/:id", deletandoUsuarioController);
 
+usuarioRoute.post("/usuarioLogin", (req,res)=>{
+    console.log("criaLogin usuario controller")
+})
+
 module.exports = usuarioRoute
 
 

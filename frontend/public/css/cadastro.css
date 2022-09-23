@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #323232;
+  border: none;
+}
+
+body {
+  padding-top: 5vh;
+  background-image: url( '../images/esta.jpg');
+  background-size: cover;
+  background-position-y: -150px;
+  background-color: #FFD700;
+}
+
+input, label {
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+a {
+  color: #696969;
+}
+
+
+#main-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFD700;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  border-color: #696969;
+}
+
+button{
+  border-bottom: none;
+  padding: 10px 60px;
+  margin: 20px;
+  margin-left: 140px;
+  background-color: gray;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  border-color: gray;
+}
+
+
+button:hover{
+  background: rgb(255, 0, 0);
+  border-color: red;
+
+}
+
+
+input[type="submit"] {
+  background-color: #696969;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+}
+
+.btn-grey {
+  background-color: #696969;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.btn {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+  display: block;
+  outline: none;
+  width: 100%;
+  text-align: center;
+}
+
+#agreement {
+  margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+  display: inline-block;
+  width: auto;
+}
+
+.error-validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: 12px;
+}
+
+.template {
+  display: none;
+}
+
+#agreement-label {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 730px) {
+
+  body {
+    background-color: white;
+  }
+  
+#main-container {
+  width: 500px;
+}
+
+}
+

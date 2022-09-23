@@ -4,10 +4,10 @@ const criandoVeiculoController = async(req,res) => {
     const user = require('../../models/veiculo');
     //verifica se existe essa tabela no banco caso nao exista ele cria
     await db.sync()
-    const {nome, ano,cor,placa,propietario} = req.body;
+    const {modelo, ano,cor,placa,propietario,senha} = req.body;
     //desestruturacão
     const newuser = await user.create({
-        nome ,ano, cor, placa, propietario
+        modelo ,ano, cor, placa, propietario, senha
     });
     console.log(newuser)
     return res.status(201).json({user: newuser});
