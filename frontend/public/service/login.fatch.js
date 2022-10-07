@@ -18,7 +18,7 @@ function usuarioLogin(){
     .then(res=> {
         if(res.user.id){
             window.alert(" login realizado com sucesso")
-            window.location.href = "/carros"
+            window.location.href = "/home"
         }else{
             window.alert("Nao foi possivel completa seu login")
         }
