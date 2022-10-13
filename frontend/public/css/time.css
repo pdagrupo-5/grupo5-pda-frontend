@@ -26,6 +26,11 @@
   padding-bottom: 25px;
 }
 
+texto1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 
 @media (min-width: 900px) {
 
@@ -41,5 +46,7 @@
   #container a img {
     padding-right: 10px;
   }
+
+
 
 }

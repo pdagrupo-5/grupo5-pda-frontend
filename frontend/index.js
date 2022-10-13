@@ -50,6 +50,10 @@ app.get("/pagamento", (request , response)=> {
     let titulo = "pagamento";
     response.render("pages/pagamento" , {titulo});
 })
+app.get("/feedback", (request , response) => {
+    let titulo = "feedback";
+    response.render("pages/feedback" , {titulo});
+});
 
 app.use((req,res,next) => {
     res.status(404).render("pages/not-found" )
