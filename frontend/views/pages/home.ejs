@@ -2,13 +2,16 @@
 <html lang="pt-BR">
 <head>
   <%- include('../partials/head' , {titulo}) %>
-  
+  <title></title>
 </head>
 <body>
     <ul id="header_conta">
       <li><a href="/carros" id="header_conta__criar" title="Cadastro do carro">Cadastro do carro</a></li>
         <li><a href="/cadastro" id="header_conta__criar" title="Crie Sua Conta">Crie Sua Conta</a></li>
         <li><a href="/login" id="header_conta__entrar" title="Entre">Entre</a></li>
+        <li class="perfil"> <a href="/agendamento">
+          <span><ion-icon name="person-circle-outline"></ion-icon></span>
+        </a></li>
     </ul>
     <%- include('../partials/menu') %>
 
@@ -100,5 +103,7 @@
     </footer>
     </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
