@@ -1,1 +1,0 @@
-//chamar a funçao validar usuario e so cadastrar um novo carro se o return for true.

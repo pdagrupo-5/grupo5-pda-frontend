@@ -7,8 +7,6 @@ app.set("view engine" , "ejs");
 app.set('views' , './views')
 
 
-
-
 app.use(express.static(__dirname + '/public/'));
 
 app.get("/", (request , response) => {
@@ -53,6 +51,11 @@ app.get("/pagamento", (request , response)=> {
 app.get("/feedback", (request , response) => {
     let titulo = "feedback";
     response.render("pages/feedback" , {titulo});
+});
+
+app.get("/agendamento", (request , response) => {
+    let titulo = "agendamento";
+    response.render("pages/agendamento" , {titulo});
 });
 
 app.use((req,res,next) => {

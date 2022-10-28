@@ -11,7 +11,14 @@ const criandoUsuarioController = async(req,res) => {
     });
     if(newuser.id){
         await user.update({
-         logado: 1 
+         logado: 1, 
+         email: newuser.email,
+         senha: newuser.senha,
+            rg: newuser.rg,
+            cep: newuser.cep,
+            datanasc: newuser.datanasc,
+            id: newuser.id
+
         }, {
             where: {id: newuser.id }
         })
@@ -21,3 +28,6 @@ const criandoUsuarioController = async(req,res) => {
 }
 
 module.exports = criandoUsuarioController;
+
+
+//
