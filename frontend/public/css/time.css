@@ -9,7 +9,9 @@
 #membros{
   margin-bottom: 3rem;
   text-align: center;
+  padding: 4%;
 }
+
 
 #container {
   display: flex;
@@ -21,9 +23,8 @@
   padding-top: 10px;
 }
 
-#container a img {
-  padding-right: 10px;
-  padding-bottom: 25px;
+#container > img{
+  margin-bottom: 26px;
 }
 
 texto1{
