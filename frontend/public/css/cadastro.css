@@ -11,7 +11,7 @@ body {
   padding-top: 5vh;
   background-image: url( '../images/esta.jpg');
   background-size: cover;
-  background-position-y: -150px;
+  background-position-y: 10px;
   background-color: #FFD700;
 }
 
@@ -78,18 +78,19 @@ input:focus {
 }
 
 button{
-  border-bottom: none;
-  padding: 10px 60px;
-  margin: 20px;
-  margin-left: 140px;
-  background-color: gray;
-  border-radius: 40px;
-  color: #fff;
-  font-weight: 500;
+
+  background-color: #696969;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
   cursor: pointer;
-  font-size: 15px;
-  transition: 0.3s;
-  border-color: gray;
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+  text-decoration: none;
+  width: 100%;
 }
 
 
