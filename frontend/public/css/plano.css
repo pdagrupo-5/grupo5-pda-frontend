@@ -7,7 +7,6 @@
     background-color: rgb(255, 255, 255);
     min-height: 100vh;
     display: flex;
-    justify-content: center;
    align-items: center;
   }
   
@@ -17,6 +16,29 @@
     justify-content: space-evenly;
    
   }
+
+.navigation{
+  position: absolute;
+  margin-bottom: 50rem;
+  padding-left: 3rem;
+  padding: 10px;
+}
+
+.navigation a button {
+  border: none;
+   background-color: #ece037;
+   border-radius: 4px;
+   padding: 10px;
+   
+   cursor: pointer;
+   color: #000;
+}
+
+.navigation a :hover{
+
+  background-color: black;
+  color: #fff;
+}
   
 
   .card {
