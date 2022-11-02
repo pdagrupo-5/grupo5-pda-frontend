@@ -17,7 +17,7 @@ header {
 }
 
 #header_conta {
-    background-color: #354444;
+    background-color: #474a4a;
     list-style: none;
     display: flex;
     justify-content: end;
@@ -42,7 +42,7 @@ header {
 #header_titulo {
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: #fff;
     font-weight: bolder;
     margin-top: 15px;
     margin-left: 30px;
@@ -147,7 +147,7 @@ footer {
 
 footer p {
     text-align: center;
-    color: white;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -160,7 +160,7 @@ p {
 }
 
 #footer button {
-    color: #212529;
+    color: #313335;
     font-weight: bold;
     text-transform: uppercase;
     background-color: #ffd700;
@@ -169,12 +169,12 @@ p {
 }
 
 #footer button:hover {
-    background-color: #354444;
+    background-color: #565959;
 
 }
 
 #form_titulo {
-    color: white;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
 }

@@ -58,6 +58,11 @@ app.get("/agendamento", (request , response) => {
     response.render("pages/agendamento" , {titulo});
 });
 
+app.get("/cartao", (request , response) => {
+    let titulo = "cartao";
+    response.render("pages/cartao" , {titulo});
+});
+
 app.use((req,res,next) => {
     res.status(404).render("pages/not-found" )
 })
