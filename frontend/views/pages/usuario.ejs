@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('../partials/head' , {titulo}) %>
+    <title>Usuario</title>
+    <link rel="stylesheet" href="css/usuario.css">
+    <link rel="shortcut icon" type="imagex/png" href="/images/icone.webp" />
+</head>
+<body>
+    <%- include('../partials/menu') %>
+    
+    <section class="usuario">
+        <div class="navigation" >
+            <ul>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></ion-icon></span>
+                        <span class="title">Perfil</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="agendamento">
+                        <span class="icon"><ion-icon name="calendar-number-outline"></ion-icon></span>
+                        <span class="title">Agendamentos</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                        <span class="title">Sair</span>
+                    </a>
+                </li>
+        
+            </ul>
+           </div>
+
+            <div>
+                <h1 class="titulo">Perfil</h1>
+
+                <div class="container-perfil">
+                    <div class="caixa-perfil">
+                        <div class="foto-perfil">
+                            <img class="img-perfil" src="https://media-exp1.licdn.com/dms/image/D4D35AQGjvu5rkwo3jg/profile-framedphoto-shrink_800_800/0/1665166559000?e=1668474000&v=beta&t=xumOVdxUstNiMPfZpPnipHD5C5cioKuoaMS7bjCk2Yk" alt="">
+                            <div class="editar-perfil">
+                                <ion-icon class="icon-perfil" name="create"></ion-icon>
+                            </div>
+                        </div>
+                        <ul class="perfil">
+                            <li class="dado-perfil">Nome</li>
+                            <li class="dado-perfil">Senha</li>
+                        </ul>
+                    </div>
+                        
+                </div>
+            </div>
+  
+   
+    </section>
+ 
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

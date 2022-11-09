@@ -63,6 +63,11 @@ app.get("/cartao", (request , response) => {
     response.render("pages/cartao" , {titulo});
 });
 
+app.get("/usuario", (request , response) => {
+    let titulo = "usuario";
+    response.render("pages/usuario" , {titulo});
+});
+
 app.use((req,res,next) => {
     res.status(404).render("pages/not-found" )
 })
