@@ -33,7 +33,7 @@ const usuario = db.define('pessoa' , {
         allowNull: false
     },
     logado: {
-        type: Sequelize.DataTypes.TINYINT,
+        type: Sequelize.DataTypes.INTEGER,
         allowNull: false
     }
 });

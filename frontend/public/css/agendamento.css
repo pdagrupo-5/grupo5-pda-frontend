@@ -24,9 +24,9 @@ body{
 }
 
 .navigation{
-    position: relative;
+    position: absolute;
     margin-top: -56px;
-    height: 500px;
+    height: 100%;
     background: #efcf33;
     width: 70px;
     overflow-x: hidden;
@@ -116,6 +116,18 @@ body{
     border-radius: 50%;
     box-shadow: 15px -15px 0 #099c22;
 } 
+
+.dtpessoas{
+    font: 14px;
+    margin-left: 28%;
+    margin-top: 5rem;
+
+}
+table tr td{
+    width: 200px;
+}
+
+
 
 
 

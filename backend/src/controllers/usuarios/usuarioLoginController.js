@@ -6,8 +6,16 @@ const login = async(req,res) => {
     const usuario = await user.findOne({where: {email:email}})
     if(usuario.senha === senha){
         console.log(usuario.senha)
+        console.log(usuario.email)
         await usuario.update({
-        logado: 1
+          id: usuario.id,
+          nome: usuario.nome,
+          datanasc: usuario.datanasc,
+          email: usuario.email,
+          rg: usuario.rg,
+          cep: usuario.cep,
+          senha: usuario.senha, 
+          logado: 1
           }, { where: { id: usuario.id }});
         return res.json({usuario})
     }

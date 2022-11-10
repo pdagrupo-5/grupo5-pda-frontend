@@ -24,6 +24,9 @@
     "express": "^4.18.1",
     "msql": "^1.0.3",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.21.6"
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.6",
+    "sweetalert": "^2.1.2"
   }
 }

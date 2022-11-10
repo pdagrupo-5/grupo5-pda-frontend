@@ -1,7 +1,7 @@
 const alterandoVeiculoController = async (req,res)=>{
     let veiculo = require('../../models/veiculo');
     const idveiculo = req.params.id;
-    const {nome, ano,cor,placa,propietario} = req.body;
+    const {ano,cor,placa,propietario} = req.body;
     const carro = await veiculo.findByPk(id); 
     await  veiculo.update({
       modelo: modelo || carro.modelo,
