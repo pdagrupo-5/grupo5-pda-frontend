@@ -15,8 +15,21 @@
 
 #container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: auto;
+  padding: 0 10px ;
+}
+
+.col-lg-4 {
+  width: 300px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #container h4 {

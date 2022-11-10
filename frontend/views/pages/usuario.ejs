@@ -34,28 +34,61 @@
             </ul>
            </div>
 
-            <div>
+            <div class="container-superior-perfil">
                 <h1 class="titulo">Perfil</h1>
 
                 <div class="container-perfil">
-                    <div class="caixa-perfil">
+                    <form class="caixa-perfil">
                         <div class="foto-perfil">
                             <img class="img-perfil" src="https://media-exp1.licdn.com/dms/image/D4D35AQGjvu5rkwo3jg/profile-framedphoto-shrink_800_800/0/1665166559000?e=1668474000&v=beta&t=xumOVdxUstNiMPfZpPnipHD5C5cioKuoaMS7bjCk2Yk" alt="">
                             <div class="editar-perfil">
                                 <ion-icon class="icon-perfil" name="create"></ion-icon>
                             </div>
                         </div>
-                        <ul class="perfil">
-                            <li class="dado-perfil">Nome</li>
-                            <li class="dado-perfil">Senha</li>
-                        </ul>
-                    </div>
+                       <div class="dados">
+                        <input type="text" class="dado-perfil" placeholder="Nome"/>
+                        <input type="password" class="dado-perfil" placeholder="Senha"/></div>
+                        
+                            
+                    </form>
                         
                 </div>
             </div>
   
    
     </section>
+    <script>
+        let edit = false
+        function ler() {
+           let input = document.getElementsByClassName("dado-perfil")
+           console.log(input)
+
+           for(let i=0; i<input.length; i++) {
+            input[i].setAttribute("readonly","")
+           }
+        }
+
+        function editar() {
+           let input = document.getElementsByClassName("dado-perfil")
+           console.log(input)
+
+           for(let i=0; i<input.length; i++) {
+            input[i].removeAttribute("readonly")
+           }
+        }
+        
+        document.querySelector(".editar-perfil").addEventListener("click", function(){
+            if (edit === false) {
+                ler()
+                edit = true
+            }
+
+            else {
+                editar()
+                edit = false
+            }
+        })
+    </script>
  
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
