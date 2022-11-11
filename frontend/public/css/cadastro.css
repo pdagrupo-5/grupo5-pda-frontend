@@ -7,7 +7,7 @@
   border: none;
 }
 
-body {
+body{
   padding-top: 5vh;
   background-image: url( '../images/esta.jpg');
   background-size: cover;
@@ -95,8 +95,8 @@ button{
 
 
 button:hover{
-  background: rgb(255, 0, 0);
-  border-color: red;
+  background: green;
+  border-color: green;
 
 }
 

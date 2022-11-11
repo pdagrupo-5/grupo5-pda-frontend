@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -6,7 +7,11 @@
 }
 
 body {
+  
   background-image: url(../images/estacionamento5.jpg);
+  background-size: cover;
+  background-position-y: 10px;
+  background-color: #FFD700;
 }
 
 .container {
@@ -46,7 +51,6 @@ body {
 .second-column {
   flex: 2;
   background-color: rgb(255, 255, 255);
-  border: 3px solid rgba(0, 0, 0, 0.4);
   width: 10%;
   height: 45%;
   margin: 6% 4% 4% 4%; 
@@ -62,14 +66,14 @@ body {
   padding: 4%; 
 }
 
-#nome{
+#nomecartao{
   width: 100%;
   height: 2.5rem;;
   padding: 4px;
   margin: 1% 0% 2% 0%;
 }
 
-#numero-cartao{
+#numerocartao{
   width: 53%;
   height: 2.5rem;
   margin: 2% 0% 2% 0%;
@@ -83,7 +87,7 @@ body {
   padding: 4px;
 }
 
-#validade-boleto {
+#validade{
   width: 45%;
   height: 2.5rem;
   margin: 2% 0% 2% 0%;
@@ -104,7 +108,7 @@ body {
   padding: 4px;
 }
 
-#data-nascimento {
+#datanasc {
   width: 39%;
   margin: 2% 0% 2% 0%;
   height: 2.5rem;
@@ -142,8 +146,7 @@ body {
   height: 60px;
   font-size: 140%;
   margin: 30px;
-  border-radius: 8px;
-  box-shadow: 3px 3px rgba(190, 190, 190, 0.233);
+  border-radius: 4px;
 }
 
 .btn:hover {
@@ -154,15 +157,15 @@ body {
 }
 
 #btn-finalizar {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0%;
   margin-left: 30%;
   width: 40%;
   height: 3rem;
-  border-radius: 5px;
+  border-radius: 50px;
   border: #f2f2f2;
-  background-color: #58C22E;
+  background-color: #cac02e;
   color: #f2f2f2;
   justify-content: center;
-  box-shadow: 3px 3px rgba(42, 42, 42, 0.445);
   margin-top: 70px;
 }

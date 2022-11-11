@@ -8,31 +8,13 @@
 </head>
 <body>
     <%- include('../partials/menu') %>
-
-
-
-    <div>
-        <h1 class="titulo">Agendamentos</h1>
-    </div>
   
     <div class="navigation" >
         <ul>
             <li class="list">
-                <a href="/usuario">
-                    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></ion-icon></span>
-                    <span class="title">Perfil</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon"><ion-icon name="calendar-number-outline"></ion-icon></span>
-                    <span class="title">Agendamentos</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="/" onclick="usuarioLogout()">
+                <a onclick="usuarioLogout()">
                     <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
-                    <span class="title">Log Out</span>
+                    <span class="title">Sair</span>
                 </a>
             </li>
     
@@ -40,21 +22,9 @@
     
     
     </div>
-
-   <div class="dtpessoas">
-    <table class="tbpessoas">
-        <thead>
-            <tr>
-              <td>Cliente</td>
-              <td>Modelo</td>
-              <td>Placa</td>
-              <td>Status</td>
-            </tr>
-        </thead>
-      </table>
    </div>
-   
-   <script src="js/agendamentos.js"></script>
+   <script src="service/agendaCar.js"></script>
+   <script src="js/agendamento.js"></script>
    <script src="service/logout.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 

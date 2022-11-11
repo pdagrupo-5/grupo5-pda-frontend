@@ -44,6 +44,10 @@ texto1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+main {
+  padding: 10px 0;
+ }
+
 
 
 @media (min-width: 900px) {

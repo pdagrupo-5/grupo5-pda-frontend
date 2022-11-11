@@ -9,7 +9,7 @@
 
 body {
   padding-top: 5vh;
-  background-image: url( '../images/esta.jpg');
+  background-image: url( '../images/estacionamento5.jpg');
   background-size: cover;
   background-position-y: 10px;
   background-color: #FFD700;
@@ -51,6 +51,13 @@ form {
   flex: 1 1 100%;
   position: relative;
 }
+.btn-b:hover{
+
+  background-color: green;
+  transition: 0.3s;
+
+}
+
 
 .half-box {
   flex: 1 1 45%;
@@ -125,7 +132,7 @@ input[type="submit"] {
 }
 
 .error-validation {
-  color: #ff1a1a;
+  color: #ff0000;
   position: absolute;
   top: 57px;
   font-size: 12px;

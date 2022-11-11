@@ -107,12 +107,12 @@ button{
     cursor: pointer;
     font-size: 15px;
     transition: 0.3s;
-    border-color: gray;
 
 }
 button:hover{
-    background: rgb(255, 0, 0);
-    border-color: red;
+    background-color: green;
+    border-color: green;
+    transition: 0.3s;
 
 }
 

@@ -14,7 +14,7 @@
     <form id="register-form" >
       <div class="full-box">
         <label for="">Propietario</label>
-        <input type="text" name="nome" id="propietario" placeholder="Digite seu nome" data-min-length="2" data-email-validate oninput="cadpessoa()">
+        <input type="text" name="nome" id="propietario" placeholder="Digite seu nome" data-min-length="2" data-email-validate>
       </div>
       <div class="half-box spacing">
           <label for="name">Modelo</label>
@@ -47,7 +47,7 @@
         <label for="agreement" id="agreement-label">Já possui uma conta? <a href="/login">Faça login</a></label>
       </div>
       <div class="full-box">
-        <input id="btn-submit" type="submit"value="Registrar" onclick= "cadastroCarro(event)">
+        <input class="btn-b" id="btn-submit" type="submit"value="Registrar" onclick= "cadastroCarro(event)">
       </div>
       <div class="full-box">
         <a href="/" class="btn btn-grey">Voltar</a>
@@ -55,7 +55,7 @@
     </form>
   </div>
   <p class="error-validation template"></p>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="/service/carro.fetch.js"></script>
-  <script src="/js/agendamentos.js"></script>
 </body>
 </html>

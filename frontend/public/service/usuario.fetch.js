@@ -23,8 +23,8 @@ function criaUsuario(){
     .then(res => res.json())
     .then(res=> {
         if(res.user.id){
-            window.alert("cadastro realizado com sucesso")
-            window.location.href = "/carros"
+            swal("Bom Trabalho", "Você Foi Cadastrado Com Sucesso!", "success");
+            setTimeout(()=> window.location.href = "/", 4000 )
         }else{
             window.alert("Nao foi possivel completa seu cadastro")
         }

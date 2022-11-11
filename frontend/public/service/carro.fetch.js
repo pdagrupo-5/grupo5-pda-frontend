@@ -1,4 +1,5 @@
-function cadastroCarro(){
+function cadastroCarro(e){
+    e.preventDefault()
     const propietario = document.getElementById("propietario").value
     const placa = document.getElementById("placa").value
     const modelo= document.getElementById("modelo").value
@@ -22,5 +23,17 @@ function cadastroCarro(){
     })
      
     .then(res => res.json())
-    .then(res=> console.log(res))
+    .then(res=> {
+        if(res.user.idveiculo){
+           
+            swal("Bom Trabalho", "Seu Carro Foi Cadastrado!", "success");
+            setTimeout(()=> window.location.href = "/", 3000 )
+        }else{
+            window.alert("Nao foi possivel completa seu cadastro")
+        }
+    })
+    .catch(error =>{
+        window.alert(error)
+    })
+    
 }

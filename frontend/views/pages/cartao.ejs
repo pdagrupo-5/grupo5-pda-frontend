@@ -30,21 +30,21 @@
                     <div class="second-column">
                         <div class="cartao">
                             <div class="campo-1">
-                                <input type="text" id="nome"  placeholder="Nome impresso no cartão" required>
+                                <input type="text" id="nomecartao"  placeholder="Nome impresso no cartão" required>
                             </div>
                             <div class="campo-2">
-                                <input type="text" id="numero-cartao" placeholder="Número do cartão"required>
+                                <input type="text" id="numerocartao" placeholder="Número do cartão"required>
                                 <input type="text" id="validade" placeholder="Validade --/--" required>
                                 <input type="text" id="cvv" placeholder="cvv" required>
                             </div>
                             <div class="campo-3">
                                 <input type="text" id="cpf"placeholder="CPF do titular" required>
-                                <input type="text" id="data-nascimento" placeholder="Data de nascimento" required>
+                                <input type="date" id="datanasc" placeholder="Data de nascimento" required>
                             </div>   
                         </div> 
                       
                             <div class="div-finalizar">
-                                <button class="btn" id="btn-finalizar" > Finalizar </button>
+                                <button class="btn" id="btn-finalizar" onclick="criaCartao()"> Finalizar </button>
                             </div>
                             
                         </div>    
@@ -52,5 +52,8 @@
             </div>    
         </div>     
     </div>
+    
+    <script src="service/cartao.fetch.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

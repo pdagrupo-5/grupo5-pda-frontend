@@ -26,6 +26,7 @@ header {
 }
 
 #header_conta a {
+    cursor: pointer;
     text-decoration: none;
     color: white;
     display: block;
@@ -133,6 +134,7 @@ header {
     
 }
 
+
 nav a {
     text-decoration: none;
     color: white;
@@ -140,8 +142,8 @@ nav a {
 
 footer {
     align-items: center;
-    margin: 0;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     background-color: #ffd700;
 }
 

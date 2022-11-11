@@ -7,10 +7,11 @@ function usuarioLogout(){
     })
     .then(res => res.json())
     .then(res=> {
-        console.log(res.usuario)
         if(res.usuario.id){
-            window.alert(" logout realizado com sucesso")
-            window.location.href = "/"
+            localStorage.removeItem("logado")
+            console.log(localStorage.getItem("logado"))
+            swal("Bom Trabalho", "Você Foi Deslogado!", "success");
+            setTimeout(()=> window.location.href = "/", 3000 )
         }else{
            window.alert("Nao foi possivel completa seu logout")
         }

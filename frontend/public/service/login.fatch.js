@@ -13,14 +13,15 @@ function usuarioLogin(e){
         console.log(res.usuario)
         localStorage.setItem("idUsuario", res.usuario.id);
         localStorage.setItem("emailUsuario", res.usuario.email);
+        localStorage.setItem("logado", true);
         console.log(res)
          if(res.usuario.id){
-            window.alert(" login realizado com sucesso")
-             window.location.href = "/"
+            swal("Bom Trabalho", "Você Está Logado!", "success");
+            setTimeout(()=> window.location.href = "/", 3000 )
          }else{
             window.alert("Nao foi possivel completa seu login")
         }
-        
+
     })
     
 }
